@@ -2,100 +2,114 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Mickael's Resume</title>
-  <meta name="description" content="Resume" />
-  <meta name="keywords" content="Developper Full Stack" />
-  <meta name="author" content="Mickael" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Mickael's Resume</title>
+    <meta name="description" content="Resume"/>
+    <meta name="keywords" content="Developper Full Stack"/>
+    <meta name="author" content="Mickael"/>
 
-  <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover"
-  style="background-image: url('./Img/photo/IMG_4695.jpg')">
-  <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+      style="background-image: url('./Img/photo/IMG_4695.jpg')">
+<div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+    <!--Img Col-->
+    <div class="w-full lg:w-2/5">
+        <!-- Big profile image for side bar (desktop) -->
+        <img src="./Img/photo/fe516feb-569e-4325-a992-f3696720b04a.jpg"
+             class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"/>
+    </div>
     <!--Main Col-->
     <div id="profile"
-      class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
-      <div class="p-4 md:p-12 text-center lg:text-left">
-        <!-- Image for mobile view-->
-        <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="
+         class="w-full lg:w-3/5 rounded-lg lg:rounded-l-none lg:rounded-r-lg shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
+        <div class="p-4 md:p-12 text-center lg:text-left">
+            <!-- Image for mobile view-->
+            <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="
               background-image: url('./Img/photo/fe516feb-569e-4325-a992-f3696720b04a.jpg');
             "></div>
 
-        <h1 class="text-3xl font-bold pt-8 lg:pt-0">Mickael JEGAT</h1>
-        <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-blue-500 opacity-25"></div>
+            <h1 class="text-3xl font-bold pt-8 lg:pt-0">Mickael JEGAT</h1>
+            <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-sky-500 opacity-25"></div>
 
-        <div class="mt-6">
-          I'm 32 yo, <br />
-          I lived in Paris since 2015 <br />
-          I like taking photography alone, <br />
-          biking with friend, <br />
-          travelling with my fiancée <br />
-          and drinking beer with bro's 😁
+            <blockquote class="text-2xl italic mt-6">
+                I'm 32 yo, <br/>
+                I lived in Paris since 2015 <br/>
+                I like taking
+                <span class="before:block before:absolute before:-inset-0.5 before:-skew-y-3 before:bg-sky-600 relative inline-block">
+                    <span class="relative text-white">photography</span>
+                </span> alone, <br/>
+                <span class="before:block before:absolute before:-inset-0.5 before:-skew-y-3 before:bg-sky-600 relative inline-block">
+                    <span class="relative text-white">
+                Biking</span></span> with friends, <br/>
+                <span class="before:block before:absolute before:-inset-0.5 before:-skew-y-3 before:bg-sky-600 relative inline-block">
+                    <span class="relative text-white">Travelling</span></span> with my fiancée <br/>
+                And drinking <span
+                    class="before:block before:absolute before:-inset-1 before:-skew-x-6 before:bg-sky-600 relative inline-block">
+                <span class="relative text-white">beers</span></span> with bro's <span
+                    class="font-style: normal">😁</span> <br>
+                <span class="text-xl">By the way, I create my own beers </span><span
+                    class="font-style: normal">🍺...</span>
+            </blockquote>
+
         </div>
-      </div>
     </div>
 
-    <!--Img Col-->
-    <div class="w-full lg:w-2/5">
-      <!-- Big profile image for side bar (desktop) -->
-      <img src="./Img/photo/fe516feb-569e-4325-a992-f3696720b04a.jpg"
-        class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
-    </div>
 
     <!-- Pin to top right corner -->
     <div class="absolute top-0 right-0 h-12 w-18 p-4">
-      <button class="light_dark_mode focus:outline-none">🌙</button>
+        <button class="light_dark_mode focus:outline-none">🌙</button>
     </div>
     <!-- Pin to top left corner -->
     <div class="absolute top-0 left-0 p-4">
-      <div class="absolute top-0 left-0 p-4">
-        <a class="link" href="./index.html" data-tippy-content="Return">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 fill-current text-white  hover:text-blue-700 opacity-75"
-            viewBox="0 0 16 16">
-            <path
-              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
-          </svg>
-        </a>
-      </div>
+        <div class="absolute top-0 left-0 p-4">
+            <a class="link" href="./index.html" data-tippy-content="Return">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     class="h-8 fill-current text-white  hover:text-sky-700 opacity-75"
+                     viewBox="0 0 16 16">
+                    <path
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                </svg>
+            </a>
+        </div>
+
     </div>
     <script>
-      function sendEmail() {
-        window.location = "mailto:mickael.jegat@gmail.com";
-      }
+        function sendEmail() {
+            window.location = "mailto:mickael.jegat@gmail.com";
+        }
     </script>
     <!-- Le CDN de Tippy.js c'est la vie -->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
     <script>
-      //Tippy
-      tippy(".link", {
-        placement: "bottom",
-      });
+        //Tippy
+        tippy(".link", {
+            placement: "bottom",
+        });
 
-      //Toggle mode
-      const toggle = document.querySelector(".light_dark_mode");
-      const body = document.querySelector("body");
-      const profile = document.getElementById("profile");
+        //Toggle mode
+        const toggle = document.querySelector(".light_dark_mode");
+        const body = document.querySelector("body");
+        const profile = document.getElementById("profile");
 
-      toggle.addEventListener("click", () => {
-        if (body.classList.contains("text-gray-900")) {
-          toggle.innerHTML = "☀️";
-          body.classList.remove("text-gray-900");
-          body.classList.add("text-gray-100");
-          profile.classList.remove("bg-white");
-          profile.classList.add("bg-gray-900");
-        } else {
-          toggle.innerHTML = "🌙";
-          body.classList.remove("text-gray-100");
-          body.classList.add("text-gray-900");
-          profile.classList.remove("bg-gray-900");
-          profile.classList.add("bg-white");
-        }
-      });
+        toggle.addEventListener("click", () => {
+            if (body.classList.contains("text-gray-900")) {
+                toggle.innerHTML = "☀️";
+                body.classList.remove("text-gray-900");
+                body.classList.add("text-gray-100");
+                profile.classList.remove("bg-white");
+                profile.classList.add("bg-gray-900");
+            } else {
+                toggle.innerHTML = "🌙";
+                body.classList.remove("text-gray-100");
+                body.classList.add("text-gray-900");
+                profile.classList.remove("bg-gray-900");
+                profile.classList.add("bg-white");
+            }
+        });
     </script>
 </body>
 
